@@ -3,8 +3,8 @@ import { ethers } from "ethers";
 import styles from "../styles/Home.module.css";
 import { Form, useNotification, Button } from "web3uikit";
 import { useMoralis, useWeb3Contract } from "react-moralis"
-import getContractABI from "./components/getContractABI";
-import nftMarketplaceAbi from './constants/NftMarketplace.json';
+import getContractABI from "../components/getContractABI";
+import nftMarketplaceAbi from '../constants/NftMarketplace.json';
 
 const MARKETPLACE_ADDRESS = "0x655734AF87aB0D39c5028158723b09ECF7C4d188";
 
